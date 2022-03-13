@@ -22,6 +22,7 @@ public class Fibonacci {
         // Compute and display the average (=sum/nMax).
         // Beware that int/int gives int.
         average = (double) sum / nMax;
+        System.out.println();
         System.out.println("The average is:" + average);
     }
 }
